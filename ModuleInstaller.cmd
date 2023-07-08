@@ -20,6 +20,7 @@ echo (!) If the installation fails, please consider (re-) installing Python 3.9.
 echo Installing required Python packages...
 py -m pip install --upgrade pip
 py -m pip install opencv_python requests PyDirectInput ahk Flask numpy pytesseract Pillow pywin32
+py -m pip install pytesseract
 echo Process completed with status [1].
 echo *************************************************************************************************
 echo Module installation completed. This window will close automatically in 5 seconds.
